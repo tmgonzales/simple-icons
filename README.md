@@ -126,7 +126,7 @@ composer require simple-icons/simple-icons
 
 The package can then be used as follows, where `[ICON SLUG]` is replaced by a [slug]:
 
-```php
+```php 
 <?php
 // Import a specific icon by its slug as:
 echo file_get_contents('path/to/package/icons/[ICON SLUG].svg');
